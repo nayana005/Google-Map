@@ -10,8 +10,8 @@ const MapView = (props) => {
    const result = useSelector((state) => state.markerReducer)
    console.log(result, "added result")
 
-    const [state, setState] = useState({
-        stores: [{lat: 47.49855629475769, lng: -122.14184416996333},
+    const [view, setView] = useState([
+                {lat: 47.49855629475769, lng: -122.14184416996333},
                 {latitude: 47.359423, longitude: -122.021071},
                 {latitude: 47.2052192687988, longitude: -121.988426208496},
                 {latitude: 47.6307081, longitude: -123.1434325},
@@ -28,18 +28,19 @@ const MapView = (props) => {
                 {latitude: 46.8307081, longitude: -122.3434325},
                 {latitude: 46.3084488, longitude: -122.4140121},
                 {latitude: 46.5524695, longitude: -122.8425407},]
-    })
+    )
 
       const displayMarkers = () => {
-        return state.stores.map((store, index) => {
+        return view.map((store, index) => {
           return <Marker key={index} id={index} position={{
             lat: store.latitude,
             lng: store.longitude
           }}
             onClick={() => {
               console.log("You clicked me!")
-              dispatch(markerData(store))
               newData()
+              dispatch(markerData(store))
+            
               
             }
     

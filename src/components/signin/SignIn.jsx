@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import Checkbox from '@mui/material/Checkbox';
 import { pink } from '@mui/material/colors';
 import { login } from '../../services/userService';
+import { useNavigate } from 'react-router-dom';
 
 const emailRegex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/;
 const passwordRegex = /^[a-z]{3,}$/;
@@ -177,10 +178,11 @@ const useStyles = makeStyles({
 })
 
 function SignIn(props) {
+    const navigate = useNavigate()
     const classes = useStyles()
 
     const [loginObj, setLoginObj] = useState({ email: '', password: '' })
-  const [regexObj, setRegexObj] = useState({ emailBorder: false, emailHelper: '', passwordBorder: false, passwordHelper: '' })
+    const [regexObj, setRegexObj] = useState({ emailBorder: false, emailHelper: '', passwordBorder: false, passwordHelper: '' })
 
     const openSignup = () => {
         props.listenTologin1()
@@ -240,6 +242,7 @@ function SignIn(props) {
             login(loginObj).then((response) => {
                 console.log(response)
                 localStorage.setItem("token", response.data.access_token)
+                navigate('/maptab')
             }).catch((error) => {
                 console.log(error)
             })
