@@ -1,0 +1,276 @@
+{
+  "data": [
+    {
+      "id": "vFmkEDo",
+      "latitude": "23",
+      "longitude": "-122.1"
+    },
+    {
+      "latitude": 47.3084488,
+      "longitude": -123.2140121,
+      "id": "nMqZ_Ua"
+    },
+    {
+      "latitude": 47.5524695,
+      "longitude": -122.0425407,
+      "id": "HkXGOUn"
+    },
+    {
+      "latitude": 47.8307081,
+      "longitude": -122.4434325,
+      "id": "0v5SKzd"
+    },
+    {
+      "latitude": 46.8307081,
+      "longitude": -122.3434325,
+      "id": "Jp4UsBW"
+    },
+    {
+      "id": "WsK4v6t",
+      "latitude": "48.759421",
+      "longitude": "-122.021072"
+    },
+    {
+      "latitude": 47.9052192687988,
+      "longitude": -121.988426208496,
+      "id": "aNBf2_D"
+    },
+    {
+      "latitude": 47.5524695,
+      "longitude": -122.0425407,
+      "id": "17-B5Re"
+    },
+    {
+      "latitude": 47.9052192687988,
+      "longitude": -121.988426208496,
+      "id": "1v_8KZi"
+    },
+    {
+      "latitude": 47.5524695,
+      "longitude": -122.0425407,
+      "id": "0VnPT9h"
+    },
+    {
+      "latitude": 47.5524695,
+      "longitude": -122.0425407,
+      "id": "r8iNzBO"
+    },
+    {
+      "latitude": 47.9052192687988,
+      "longitude": -121.988426208496,
+      "id": "0BYhdEI"
+    },
+    {
+      "id": "de1gYot",
+      "latitude": "46.231",
+      "longitude": "-122.876"
+    },
+    {
+      "id": "ixlIORb"
+    },
+    {
+      "latitude": 47.9052192687988,
+      "longitude": -121.988426208496,
+      "id": "tBALwFj"
+    },
+    {
+      "id": "9TqQ0L6"
+    },
+    {
+      "latitude": 47.9052192687988,
+      "longitude": -121.988426208496,
+      "id": "--I8Kzq"
+    },
+    {
+      "latitude": 47.8307081,
+      "longitude": -122.4434325,
+      "id": "PuQSzCy"
+    },
+    {
+      "latitude": 48.759423,
+      "longitude": -122.021071,
+      "id": "NPlznN7"
+    },
+    {
+      "latitude": 46.3084488,
+      "longitude": -120.4140121,
+      "id": "jmGWbds"
+    },
+    {
+      "latitude": 46.3084488,
+      "longitude": -122.4140121,
+      "id": "5wHVpma"
+    },
+    {
+      "latitude": 46.5524695,
+      "longitude": -122.8425407,
+      "id": "o5lhM5A"
+    },
+    {
+      "latitude": 46.8307081,
+      "longitude": -122.3434325,
+      "id": "emTTdoD"
+    },
+    {
+      "latitude": 46.759423,
+      "longitude": -121.021071,
+      "id": "ZQKwpuB"
+    },
+    {
+      "latitude": 46.9052192687988,
+      "longitude": -121.988426208496,
+      "id": "-2ln4vc"
+    },
+    {
+      "latitude": 47.2052192687988,
+      "longitude": -121.988426208496,
+      "id": "Kv3i3us"
+    },
+    {
+      "latitude": 47.359423,
+      "longitude": -122.021071,
+      "id": "UsKaZBk"
+    },
+    {
+      "latitude": 47.3084488,
+      "longitude": -123.2140121,
+      "id": "zVhPfux"
+    },
+    {
+      "id": "jXqW940"
+    },
+    {
+      "id": "5TeoCOY"
+    },
+    {
+      "latitude": 47.9052192687988,
+      "longitude": -121.988426208496,
+      "id": "ou4rMGe"
+    },
+    {
+      "id": "X7-Q4Sh"
+    },
+    {
+      "latitude": 47.9052192687988,
+      "longitude": -121.988426208496,
+      "id": "zJs_Gcd"
+    },
+    {
+      "latitude": 47.5524695,
+      "longitude": -122.0425407,
+      "id": "PP-D4DE"
+    },
+    {
+      "id": "Lnk2b4p"
+    },
+    {
+      "id": "g6q-uqn"
+    },
+    {
+      "latitude": 47.5524695,
+      "longitude": -122.0425407,
+      "id": "HFcQkR4"
+    },
+    {
+      "id": "ldEuoNR"
+    },
+    {
+      "id": "Pn8H_pf"
+    },
+    {
+      "latitude": 48.759423,
+      "longitude": -122.021071,
+      "id": "5NaRno9"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Product001",
+      "cost": 10,
+      "quantity": 1000,
+      "locationId": 1,
+      "familyId": 1
+    },
+    {
+      "id": 2,
+      "name": "Product002",
+      "cost": 20,
+      "quantity": 2000,
+      "locationId": 1,
+      "familyId": 2
+    },
+    {
+      "id": 3,
+      "name": "Product003",
+      "cost": 30,
+      "quantity": 3000,
+      "locationId": 3,
+      "familyId": 2
+    },
+    {
+      "id": 4,
+      "name": "Product004",
+      "cost": 40,
+      "quantity": 4000,
+      "locationId": 2,
+      "familyId": 3
+    },
+    {
+      "id": 18
+    },
+    {
+      "email": "nayana31@gmail.com",
+      "password": "nayana",
+      "id": 19
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Location001"
+    },
+    {
+      "id": 2,
+      "name": "Location002"
+    },
+    {
+      "id": 3,
+      "name": "Location003"
+    }
+  ],
+  "families": [
+    {
+      "id": 1,
+      "name": "FM001"
+    },
+    {
+      "id": 2,
+      "name": "FM002"
+    },
+    {
+      "id": 3,
+      "name": "FM003"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "cost": 11,
+      "quantity": 10,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "cost": 12,
+      "quantity": 100,
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "cost": 15,
+      "quantity": 101,
+      "productId": 3
+    }
+  ]
+}
